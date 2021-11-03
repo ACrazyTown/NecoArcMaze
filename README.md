@@ -2,4 +2,4 @@
 
 You must escape Neco Arc.... this is a very scary game............ beware.
 
-**(https://bfdi.tv/maze)[ORIGINAL GAME] BY MICHAEL HUANG**
+**[ORIGINAL GAME](https://bfdi.tv/maze) BY MICHAEL HUANG**
