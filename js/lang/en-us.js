@@ -14,7 +14,7 @@ var Strings = {
 		quit:   "Quit"
 	},
 	death: {
-		deathMessage: "You died.",
+		deathMessage: "your Died",
 		playAgain:    "Try again",
 		quit:         "Main menu"
 	}

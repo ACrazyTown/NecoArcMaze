@@ -14,5 +14,8 @@ var Util = {
 			}
 		}
 		return newObject;
+	},
+	getRandomInt: function(max) {
+		return Math.floor(Math.random() * max);
 	}
 };

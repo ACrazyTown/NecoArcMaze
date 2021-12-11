@@ -13,7 +13,16 @@ var Graphics = {
 		this.petalImage = new Image();
 		this.petalImage.src = Settings.petal.imagePath;
 	
-        this.burenyuu = new Audio('nco_sfx_1.mp3');
+		var coolFile = "nco_sfx_1.mp3";
+		var coolNum = Util.getRandomInt(100);
+
+		if (coolNum === 69) {
+			coolFile = "nco_sfx_2.mp3";
+		} 
+
+		console.log("NECO MODE: " + coolFile + ", " + coolNum);
+
+        this.burenyuu = new Audio(coolFile);
         this.burenyuu.loop = true;
         this.burenyuu.play();
 

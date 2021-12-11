@@ -225,9 +225,17 @@ var Game = {
 		}
 	},
 	showPauseMenu: function() {
+		this.ambience.pause();
+		this.graphics.burenyuu.pause();
+
 		var pauseMenu = Object.create (PauseMenu);
 		var pauseMenuContainer = this.frameManager.pushFrame (pauseMenu);
-		pauseMenu.init (this.frameManager, pauseMenuContainer);
+		console.log(this);
+		pauseMenu.init (this.frameManager, pauseMenuContainer, this);
+	},
+	unpauseAudio: function() {
+		this.ambience.play();
+		this.graphics.burenyuu.play();
 	},
 	showDeathMenu: function() {
 		var deathMenu = Object.create (DeathMenu);

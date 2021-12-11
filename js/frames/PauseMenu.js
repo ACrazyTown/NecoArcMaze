@@ -5,6 +5,9 @@ var PauseMenu = Extend.extend (Menu, {
 			label: Strings.pauseMenu.resume,
 			element: undefined,
 			action: function(){
+				console.log(this.game);
+				this.game.unpauseAudio();
+				
 				this.frameManager.popFrame();
 			}
 		},

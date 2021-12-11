@@ -1,4 +1,5 @@
 var Menu = {
+	game: undefined,
 	frameManager: undefined,
 	frameContainer: undefined,
 	
@@ -7,7 +8,8 @@ var Menu = {
 	items: [],
 	className: "menu",
 	
-	init: function (frameManager, frameContainer) {
+	init: function (frameManager, frameContainer, game = undefined) {
+		this.game = game;
 		this.frameManager   = frameManager;
 		this.frameContainer = frameContainer;
 		
